@@ -1,0 +1,15 @@
+Decision Tree (Text Representation)
+              Weather?
+             /       \
+          Sunny      Rainy
+          /            \
+   Temperature?       Stay Inside ❌
+    /       \
+ Hot         Cool
+  |            |
+Stay Inside ❌  Play Outside ✅
+Explanation
+If it is rainy, do not play.
+If it is sunny, check temperature:
+Hot → Stay inside
+Cool → Play outside

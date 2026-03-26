@@ -1,0 +1,41 @@
+def assign_grade(marks):
+    if marks >= 90:
+        return "A"
+    elif marks >= 75:
+        return "B"
+    elif marks >= 60:
+        return "C"
+    elif marks >= 50:
+        return "D"
+    else:
+        return "F"
+
+def student_data_manager():
+    students = {}
+
+    # Input data for 5 students
+    for i in range(5):
+        name = input(f"Enter name of student {i+1}: ")
+        marks = float(input(f"Enter marks of {name}: "))
+        students[name] = marks
+
+    # Calculate class average
+    total_marks = sum(students.values())
+    average = total_marks / len(students)
+
+    # Find topper
+    topper = max(students, key=students.get)
+
+    # Display student data with grades
+    print("\n--- Student Details ---")
+    for name, marks in students.items():
+        grade = assign_grade(marks)
+        print(f"{name}: Marks = {marks}, Grade = {grade}")
+
+    # Display results
+    print("\n--- Summary ---")
+    print(f"Class Average: {average:.2f}")
+    print(f"Topper: {topper} with {students[topper]} marks")
+
+# Run the program
+student_data_manager()

@@ -1,0 +1,24 @@
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+
+# Sample dataset
+data = {
+    "Area": [500, 800, 1000, 1200, 1500],
+    "Price": [100000, 150000, 200000, 230000, 300000]
+}
+
+df = pd.DataFrame(data)
+
+# Features and Labels
+X = df[["Area"]]
+y = df["Price"]
+
+# Train model
+model = LinearRegression()
+model.fit(X, y)
+
+# Predict new value
+new_area = [[1100]]
+predicted_price = model.predict(new_area)
+
+print("Predicted Price for 1100 sqft:", predicted_price[0])

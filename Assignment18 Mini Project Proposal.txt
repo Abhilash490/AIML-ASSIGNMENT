@@ -1,0 +1,17 @@
+Student Performance Prediction System
+Problem Statement:
+
+Students often struggle to predict their academic performance. This project aims to predict student marks based on study patterns.
+
+Dataset
+Study hours
+Attendance
+Previous marks
+Algorithm
+Linear Regression
+Expected Output
+Predicted marks/grade of a student
+Insights on performance improvement
+Conclusion:
+
+This project will help students understand how their study habits impact performance.

@@ -1,0 +1,32 @@
+20 Messy Sentences
+Hiiiii!!! how r u??? 😂
+I loooove python sooo much!!!
+gud mrng broo 😎
+This is amazng!!!
+wh@t are you doing??
+OMG!!!! that was lit 🔥
+im so happppyyyy!!!
+pls send me d notes
+I canttt believe this!!!
+LOL 😂😂😂
+heyyyy wassup??
+thnks alot!!!
+I hve no idea
+this is cooool 😁
+okkkk fineeee
+wht is ur name?
+gr8 job 👍
+see u tmrw
+bcz I said so
+yooooo dude 😜
+Issues Identified
+Slang (gr8, bcz, u, broo)
+Emojis (😂🔥😎)
+Typos (amazng, happppyyyy)
+Repeated characters (sooo, heyyyy)
+Preprocessing Needed
+Convert text to lowercase
+Remove emojis and special characters
+Correct spelling
+Expand slang words
+Remove extra repeated letters

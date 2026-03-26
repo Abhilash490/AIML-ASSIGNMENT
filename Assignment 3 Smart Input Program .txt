@@ -1,0 +1,28 @@
+def categorize_age(age):
+    if age < 13:
+        return "Child"
+    elif age < 20:
+        return "Teenager"
+    elif age < 60:
+        return "Adult"
+    else:
+        return "Senior"
+
+def smart_input_program():
+    # Taking user input
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+    hobby = input("Enter your hobby: ")
+
+    # Categorizing age
+    category = categorize_age(age)
+
+    # Personalized message
+    print("\n--- Personalized Message ---")
+    print(f"Hello {name}!")
+    print(f"You are categorized as: {category}.")
+    print(f"It's great that you enjoy {hobby}!")
+    print("Have a wonderful day! 😊")
+
+# Run the program
+smart_input_program()

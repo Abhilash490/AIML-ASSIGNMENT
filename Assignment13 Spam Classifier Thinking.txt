@@ -1,0 +1,16 @@
+Features (Inputs)
+Presence of spam words (e.g., “free”, “win”, “offer”)
+Message length
+Number of links
+Sender information
+Frequency of special characters (!, $, etc.)
+Data Needed
+Labeled dataset of messages (Spam / Not Spam)
+Large variety of real-world messages
+Balanced dataset to avoid bias
+Possible Mistakes
+False Positive: Important message marked as spam
+False Negative: Spam message not detected
+Overfitting if trained on limited data
+Language variations may confuse model
+New spam patterns may not be recognized

@@ -1,0 +1,16 @@
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv("data.csv")
+
+# --- Handle Missing Values ---
+df = df.fillna(method='ffill')  # Fill missing values
+
+# --- Remove Duplicates ---
+df = df.drop_duplicates()
+
+# --- Standardize Text ---
+df['Name'] = df['Name'].str.lower().str.strip()
+
+# Display cleaned data
+print(df.head())

@@ -1,0 +1,39 @@
+1. Voice Assistants (Google Assistant / Siri)
+
+Uses speech recognition models to convert voice into text and NLP to understand and respond to user queries.
+
+2. YouTube Recommendations
+
+ML analyzes watch history, likes, and behavior to suggest videos using recommendation algorithms.
+
+3. Google Maps Navigation
+
+Uses ML to predict traffic conditions and suggest the fastest route based on real-time and historical data.
+
+4. Email Spam Filter
+
+ML models classify emails as spam or not by learning patterns from previously marked spam messages.
+
+5. Netflix / OTT Suggestions
+
+Recommends movies and shows using collaborative filtering based on user preferences and viewing patterns.
+
+6. Online Shopping (Amazon / Flipkart)
+
+Suggests products using ML by analyzing browsing history, purchases, and user interests.
+
+7. Face Unlock (Smartphone)
+
+Uses computer vision and deep learning to recognize and match facial features for authentication.
+
+8. Chatbots (Customer Support)
+
+NLP-based ML models understand user queries and provide automated responses or solutions.
+
+9. Social Media Feed (Instagram / Facebook)
+
+ML ranks posts based on engagement, likes, and interactions to show personalized content.
+
+10. Keyboard Autocorrect & Suggestions
+
+Uses language models to predict and correct words based on typing patterns and context.

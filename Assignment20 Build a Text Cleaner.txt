@@ -1,0 +1,27 @@
+import string
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+import nltk
+
+nltk.download('punkt')
+nltk.download('stopwords')
+
+def clean_text(text):
+    # Lowercase
+    text = text.lower()
+
+    # Remove punctuation
+    text = text.translate(str.maketrans('', '', string.punctuation))
+
+    # Tokenize
+    words = word_tokenize(text)
+
+    # Remove stopwords
+    stop_words = set(stopwords.words('english'))
+    filtered_words = [w for w in words if w not in stop_words]
+
+    return " ".join(filtered_words)
+
+# Test
+sample = "Hello!!! This is a SIMPLE text, with punctuation and stopwords."
+print(clean_text(sample))

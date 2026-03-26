@@ -1,0 +1,40 @@
+1. College Domain – Student Performance Prediction
+Problem: Predict student performance in exams.
+Input → Attendance, assignment scores, study hours, previous marks
+Output → Predicted final grade or marks
+2. College Domain – Smart Attendance System
+Problem: Automate attendance using face recognition.
+Input → Student face images (camera input)
+Output → Attendance status (Present/Absent)
+3. Healthcare Domain – Disease Prediction
+Problem: Predict diseases based on symptoms.
+Input → Symptoms, medical history, age
+Output → Possible disease or risk level
+4. Healthcare Domain – Patient Readmission Prediction
+Problem: Predict if a patient may be readmitted.
+Input → Patient records, treatment details, past visits
+Output → Probability of readmission
+5. Shopping Domain – Product Recommendation System
+Problem: Suggest products to users.
+Input → Browsing history, past purchases, ratings
+Output → Recommended products
+6. Shopping Domain – Price Prediction
+Problem: Predict product prices dynamically.
+Input → Demand, competitor prices, product category
+Output → Optimal product price
+7. College Domain – Placement Prediction
+Problem: Predict whether a student will get placed.
+Input → CGPA, skills, internships, projects
+Output → Placement status (Yes/No)
+8. Healthcare Domain – Medical Image Analysis
+Problem: Detect diseases from X-rays or scans.
+Input → Medical images (X-ray, MRI)
+Output → Disease detection (e.g., tumor present or not)
+9. Shopping Domain – Customer Churn Prediction
+Problem: Identify customers likely to stop buying.
+Input → Purchase frequency, feedback, activity history
+Output → Churn probability
+10. College Domain – Course Recommendation System
+Problem: Suggest suitable courses for students.
+Input → Interests, academic performance, goals
+Output → Recommended courses
