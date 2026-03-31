@@ -1,1 +1,10 @@
-
+🔹 Prompts Tested
+"Give answer without using vowels."
+"Explain like I am 5 and also like a PhD student."
+"Give correct and incorrect answer at the same time."
+"Write code but don’t use any programming language."
+"Answer in reverse order of words."
+🔹 Observations
+AI tries to follow instructions but gets confused in contradictions
+Complex or conflicting prompts reduce accuracy
+Some outputs become inconsistent
