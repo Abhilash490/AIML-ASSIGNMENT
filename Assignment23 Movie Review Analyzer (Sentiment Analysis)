@@ -1,0 +1,13 @@
+🔹 Sample Reviews
+"The movie was amazing and full of action." → Positive
+"Worst movie ever, very boring." → Negative
+"Good story but slow in parts." → Neutral/Positive
+"Excellent acting and direction." → Positive
+"Not worth watching." → Negative
+🔹 Method
+Used simple keyword-based approach
+Positive words: good, amazing, excellent
+Negative words: worst, boring, bad
+🔹 Result
+Correctly identified most sentiments
+Some mixed reviews were harder to classify
