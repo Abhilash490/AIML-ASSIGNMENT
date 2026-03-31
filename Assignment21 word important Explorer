@@ -1,0 +1,20 @@
+🔹 Documents Used
+"Machine learning is very useful in data science."
+"Data science includes machine learning and deep learning."
+"Python is widely used for machine learning."
+"Artificial intelligence and machine learning are related fields."
+"Deep learning is a part of artificial intelligence."
+🔹 Method
+Calculated TF (Term Frequency) for each word
+Calculated IDF (Inverse Document Frequency)
+Multiplied TF × IDF to get importance score
+🔹 Top Keywords
+Machine 
+Learning
+Data
+Deep
+Artificial Intelligence
+🔹 Explanation
+
+Words like machine and learning appear frequently but also across documents, showing high importance.
+Words like deep and artificial intelligence are more specific, giving them higher TF-IDF scores.
